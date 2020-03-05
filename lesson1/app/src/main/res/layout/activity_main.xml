@@ -8,147 +8,147 @@
     tools:context=".MainActivity"
 
 
-
-
-
     >
-
-    <ImageView
-        android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:src="@drawable/background"
-
-        android:scaleType="centerCrop"
-        />
 
     <TableRow
         android:id="@+id/tr_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="190sp"
-        >
+        android:layout_marginTop="190sp">
 
         <TextView
             android:id="@+id/tv_Name"
-            android:textColor="#fff"
             android:layout_width="111dp"
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Name"
             android:textAlignment="viewEnd"
+            android:textColor="#fff"
             android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Name"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
+            android:backgroundTint="#fff"
             android:text="USER NAME"
-
-            />
+            android:background=""
+            android:textColor="#fff" />
     </TableRow>
+
     <TableRow
         android:id="@+id/tr_Email"
-        android:layout_below="@+id/tr_Name"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:layout_below="@+id/tr_Name">
 
         <TextView
             android:id="@+id/tv_Email"
-            android:textColor="#fff"
             android:layout_width="111dp"
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="E-mail"
             android:textAlignment="viewEnd"
+            android:textColor="#fff"
             android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Email"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
+            android:backgroundTint="#fff"
             android:text="E-MAIL"
-            />
+            android:textColor="#fff" />
     </TableRow>
+
     <TableRow
         android:id="@+id/tr_Password"
-        android:layout_below="@+id/tr_Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:layout_below="@+id/tr_Email">
 
         <TextView
             android:id="@+id/tv_Password"
-            android:textColor="#fff"
             android:layout_width="111dp"
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Password"
             android:textAlignment="viewEnd"
-            android:textSize="16sp"
+            android:textColor="#fff"
             android:textColorHint="#868080"
+            android:textSize="16sp"
+
             />
 
         <EditText
             android:id="@+id/et_Password"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:outlineAmbientShadowColor= "#fff"
-            android:textColor="#fff"
+            android:outlineAmbientShadowColor="#fff"
             android:text="***"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/background"
+
+
             />
     </TableRow>
+
     <TableRow
         android:id="@+id/tr_Confirm"
-        android:layout_below="@+id/tr_Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#fff"
-        >
+        android:layout_below="@+id/tr_Password"
+        android:textColor="#fff">
 
         <TextView
             android:id="@+id/tv_Confirm"
-            android:textColor="#fff"
             android:layout_width="111dp"
             android:layout_height="wrap_content"
             android:padding="16sp"
             android:text="Confirm"
             android:textAlignment="viewEnd"
+            android:textColor="#fff"
             android:textSize="16sp" />
 
         <EditText
             android:id="@+id/et_Confirm"
             android:layout_width="260dp"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
             android:text="***"
-            />
+            android:textColor="#fff"
+            android:backgroundTint="#fff"/>
     </TableRow>
 
     <Button
         android:id="@+id/bt_Signup"
-        android:layout_below="@+id/tr_Confirm"
         android:layout_width="250sp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tr_Confirm"
         android:layout_centerInParent="true"
         android:background="@drawable/radius"
         android:text="Sign Up"
+        android:textAllCaps="false"
+        text
         android:textColor="#fff"
-        android:textSize="16sp"
-/>
+        android:textSize="16sp" />
+
     <TextView
-            android:textColor="#fff"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Already have an account? Sign in."
-            android:layout_centerInParent="true"
-            android:layout_alignParentBottom="true"
-            android:textAlignment="center"
-            android:textSize="16sp"
-            />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Already have an account? Sign in."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="16sp" />
 </RelativeLayout>
