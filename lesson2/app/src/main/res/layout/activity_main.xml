@@ -58,7 +58,7 @@
                 android:text="%"
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -73,7 +73,7 @@
                 android:text="/"
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -88,18 +88,19 @@
                 android:text="x"
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="2" />
 
-            <Button
+            <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="4"
                 android:background="@drawable/radius_red"
+                android:src="@drawable/ic_backspace_white_24dp"
 
                 />
 
@@ -134,7 +135,7 @@
                 android:text="7"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -149,7 +150,7 @@
                 android:text="8"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -164,7 +165,7 @@
                 android:text="9"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -179,7 +180,7 @@
                 android:text="-"
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -212,7 +213,7 @@
                 android:text="4"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -227,7 +228,7 @@
                 android:text="5"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -242,7 +243,7 @@
                 android:text="6"
                 android:textAlignment="center"
                 android:textColor="#000"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -257,7 +258,7 @@
                 android:text="+"
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="40sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
@@ -304,7 +305,7 @@
                         android:text="1"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
 
                     <TextView
                         android:layout_width="0dp"
@@ -319,7 +320,7 @@
                         android:text="2"
                         android:textAlignment="center"
                         android:textColor="#000"
-                        android:textSize="40sp" />
+                        android:textSize="30sp" />
                 </LinearLayout>
 
                 <TextView
@@ -335,7 +336,7 @@
                     android:text="0"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="45sp" />
+                    android:textSize="30sp" />
             </LinearLayout>
 
             <TextView
@@ -358,7 +359,7 @@
                     android:text="3"
                     android:textAlignment="center"
                     android:textColor="#000"
-                    android:textSize="40sp" />
+                    android:textSize="30sp" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -390,7 +391,7 @@
                 android:text="="
                 android:textAlignment="center"
                 android:textColor="#fff"
-                android:textSize="75sp" />
+                android:textSize="30sp" />
 
             <TextView
                 android:layout_width="0dp"
