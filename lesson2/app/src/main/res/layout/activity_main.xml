@@ -14,7 +14,7 @@
         android:text="25x32"
         android:textAlignment="textEnd"
         android:textColor="#00BCD4"
-        android:textSize="60sp" />
+        android:textSize="40sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -24,385 +24,329 @@
         android:text="800"
         android:textAlignment="textEnd"
         android:textColor="#00BCD4"
-        android:textSize="80sp" />
+        android:textSize="60sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#0D1271"
         android:orientation="vertical"
-        android:weightSum="32">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
+        android:weightSum="30">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4"
-            android:orientation="horizontal"
-            android:weightSum="26">
+            android:layout_marginTop="30dp"
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="24">
+
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius"
                 android:text="%"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius"
                 android:text="/"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius"
                 android:text="x"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius_red"
-                android:src="@drawable/ic_backspace_white_24dp"
+                android:src="@drawable/ic_backspace_white_24dp" />
 
-                />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4"
-            android:orientation="horizontal"
-            android:weightSum="26">
+            android:layout_marginTop="30dp"
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="24">
+
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="7"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="8"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="9"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius"
                 android:text="-"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
+
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4"
-            android:orientation="horizontal"
-            android:weightSum="26">
+            android:layout_marginTop="30dp"
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="24">
+
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="4"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="5"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
                 android:text="6"
                 android:textAlignment="center"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textSize="30sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
-
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="6"
                 android:background="@drawable/radius"
                 android:text="+"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
-        </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2" />
+
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="10"
+            android:layout_marginTop="30dp"
+
+            android:layout_weight="6"
             android:orientation="horizontal"
-            android:weightSum="26">
+            android:weightSum="24">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="10"
-                android:orientation="vertical"
-                android:weightSum="10">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:orientation="horizontal"
-                    android:weightSum="10">
-
-                    <Button
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="4"
-                        android:background="@drawable/radius_white"
-                        android:text="1"
-                        android:textAlignment="center"
-                        android:textColor="#000"
-                        android:textSize="30sp" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="2" />
-
-                    <Button
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="4"
-                        android:background="@drawable/radius_white"
-                        android:text="2"
-                        android:textAlignment="center"
-                        android:textColor="#000"
-                        android:textSize="30sp" />
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:background="@drawable/radius_white_rectangle"
-                    android:text="0"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="30sp" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:orientation="vertical"
-                android:weightSum="10">
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:background="@drawable/radius_white"
-                    android:text="3"
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="30sp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="2" />
-
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="4"
-                    android:background="@drawable/radius_white"
-                    android:text="."
-                    android:textAlignment="center"
-                    android:textColor="#000"
-                    android:textSize="30sp" />
-
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="2" />
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="4"
-                android:background="@drawable/radius_green_rectangle"
-                android:text="="
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="1"
                 android:textAlignment="center"
                 android:textColor="#fff"
                 android:textSize="30sp" />
 
-            <TextView
+
+            <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="2" />
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="3"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
         </LinearLayout>
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2" />
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="24">
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="%"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="/"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius"
+                android:text="x"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="6"
+                android:background="@drawable/radius_red"
+                android:src="@drawable/ic_backspace_white_24dp" />
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
 
